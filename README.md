@@ -6,7 +6,7 @@ It's a problem project for httpClientFactory with Middleware .
 2.F5 and deubugger the project.
 3.Set the breakpoint in TestClientMiddelware.cs file  at line 12.
 4.In the browser or postman input the url:http://localhost:21021/HOME/testhttpclient ,and visit it.
-4.You will see the first visit,the project can return correct response,But when the second visit the same url the project will throw an exception with  **Cannot access a disposed object.**
+5.You will see the first visit,the project can return correct response,But when the second visit the same url the project will throw an exception with  **Cannot access a disposed object.**
 
 ## the exception detail is
 ```INFO  2020-08-15 20:50:43,076 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
