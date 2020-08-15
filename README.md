@@ -1,14 +1,14 @@
 # Introduction
 It's a problem project for httpClientFactory with Middleware .
 
-#Steps
+# Steps
 1.Open the Project with sln file which in **5.7.0/aspnet-core/ABPTest.sln**.
 2.F5 and deubugger the project.
 3.Set the breakpoint in TestClientMiddelware.cs file  at line 12.
 4.In the browser or postman input the url:http://localhost:21021/HOME/testhttpclient ,and visit it.
 4.You will see the first visit,the project can return correct response,But when the second visit the same url the project will throw an exception with  **Cannot access a disposed object.**
 
-##the exception detail is
+## the exception detail is
 ```INFO  2020-08-15 20:50:43,076 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
 INFO  2020-08-15 20:50:43,086 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action ABPTest.Web.Host.Controllers.HomeController.TestHttpClient (ABPTest.Web.Host) in 2058.5657ms
 INFO  2020-08-15 20:50:43,089 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ABPTest.Web.Host.Controllers.HomeController.TestHttpClient (ABPTest.Web.Host)'
