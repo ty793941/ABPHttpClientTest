@@ -3,9 +3,13 @@ It's a problem project for httpClientFactory with Middleware .
 
 # Steps
 1.Open the Project with sln file which in **5.7.0/aspnet-core/ABPTest.sln**.
+
 2.F5 and deubugger the project.
+
 3.Set the breakpoint in TestClientMiddelware.cs file  at line 12.
+
 4.In the browser or postman input the url:http://localhost:21021/HOME/testhttpclient ,and visit it.
+
 5.You will see the first visit,the project can return correct response,But when the second visit the same url the project will throw an exception with  **Cannot access a disposed object.**
 
 ## the exception detail is
